@@ -1,0 +1,46 @@
+.img img{
+    width:20%;
+    margin:30px;
+    transition: 1s;
+    transition-delay: 150ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid ;
+    width: 30% fit-content;
+    font-family:'Raleway';
+    color: wheat;
+    padding-top: 10px;
+    
+}
+body{
+   /* background-color: #abd699;*/
+    background-image: url(https://t3.ftcdn.net/jpg/01/69/96/42/240_F_169964241_lKpLsuEjILK6U5bM1spQBKMc6fggD8jo.jpg);
+   /* background-position: center;*/
+    background-repeat: repeat;
+}
+.img img:hover{
+   transform: rotate(15deg);
+}
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    width: 30% fit-content;
+    font-family:'Raleway';
+    color: blanchedalmond;
+    padding-top: 10px;
+
+}
+.git{
+    width:40px;
+    border-radius: 50%;
+    position: relative;
+    left: 95%;
+    transition: 1s;
+}
+.git:hover{
+    transform: rotate(15deg);
+
+}
